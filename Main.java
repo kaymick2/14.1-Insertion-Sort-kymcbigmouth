@@ -19,6 +19,6 @@ class Main {
       }
       array[j] = element;
     }
-
+System.out.println("The sorted array is "+Arrays.toString(array));
   }
 }
