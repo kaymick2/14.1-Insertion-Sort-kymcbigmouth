@@ -6,7 +6,6 @@ class Main {
     int array[] = new int[10];
     for (int x = 0; x <= (array.length) - 1; x++) {
       array[x] = rNGesus.nextInt(70);
-      System.out.println(array[x]);
     }
     System.out.println("The unsorted array is: " + Arrays.toString(array));
     for (int i = 0; i <= (array.length) - 1; i++) {
